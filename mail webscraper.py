@@ -5,7 +5,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 
 news = ""
-r = requests.get("https://coinmarketcap.com/currencies/ethereum/")
+r = requests.get("www.yourwebsite.com")
 soup = BeautifulSoup(r.text, 'html.parser')
 result = soup.find('yourhtml', attrs = {'class':'yourclassname'})
 
